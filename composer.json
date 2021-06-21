@@ -1,0 +1,20 @@
+{
+    "name": "adi/json-rpc",
+    "require": {
+        "php": ">=8.0.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adi\\JsonRpc\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Adi\\JsonRpc\\Examples\\": "examples/src",
+            "Adi\\JsonRpc\\Tests\\": "tests"
+        }
+    }
+}
