@@ -4,10 +4,5 @@ namespace Adi\JsonRpc;
 
 interface Evaluator
 {
-    /**
-     * @param string $method
-     * @param array $arguments
-     * @return mixed
-     */
-    public function evaluate($method, $arguments);
+    public function evaluate(string $method, array $arguments): mixed;
 }
